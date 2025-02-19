@@ -1,8 +1,8 @@
 
 :root {
-    --primary-color: #2A2A72;
-    --secondary-color: #009FFD;
-    --accent-color: #FF0076;
+    --primary-color: #4285F4;
+    --secondary-color: #34A853;
+    --accent-color: #FBBC05;
     --dark-color: #1A1A2E;
 }
 
@@ -193,4 +193,22 @@ body {
     font-size: 3rem;
     color: var(--secondary-color);
     margin-bottom: 1rem;
+}
+
+.certificate-badge {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    border-radius: 25px;
+    padding: 8px 20px;
+    color: white !important;
+}
+
+.google-cert-card {
+    border: 2px solid #EA4335;
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+.google-cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(234,67,53,0.2);
 }
